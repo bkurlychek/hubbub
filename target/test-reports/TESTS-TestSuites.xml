@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites>
+  <testsuite errors="0" failures="0" hostname="Brians-MacBook-Pro.local" id="0" name="PostIntegrationTests" package="com.grailsinaction" tests="3" time="0.51" timestamp="2012-02-26T23:01:52">
+      <properties />
+
+      <testcase classname="com.grailsinaction.PostIntegrationTests" name="testFirstPost" time="0.409" />
+
+      <testcase classname="com.grailsinaction.PostIntegrationTests" name="testAccessingPosts" time="0.052" />
+
+      <testcase classname="com.grailsinaction.PostIntegrationTests" name="testPostWithTags" time="0.044" />
+
+      <system-out><![CDATA[--Output from testFirstPost--
+--Output from testAccessingPosts--
+--Output from testPostWithTags--
+]]></system-out>
+
+      <system-err><![CDATA[--Output from testFirstPost--
+--Output from testAccessingPosts--
+--Output from testPostWithTags--
+]]></system-err>
+
+  </testsuite>
+  <testsuite errors="0" failures="0" hostname="Brians-MacBook-Pro.local" id="1" name="UserIntegrationTests" package="com.grailsinaction" tests="6" time="0.362" timestamp="2012-02-26T23:01:53">
+      <properties />
+
+      <testcase classname="com.grailsinaction.UserIntegrationTests" name="testFirstSaveEver" time="0.052" />
+
+      <testcase classname="com.grailsinaction.UserIntegrationTests" name="testSaveAndUpdate" time="0.031" />
+
+      <testcase classname="com.grailsinaction.UserIntegrationTests" name="testSaveThenDelete" time="0.077" />
+
+      <testcase classname="com.grailsinaction.UserIntegrationTests" name="testEvilSave" time="0.081" />
+
+      <testcase classname="com.grailsinaction.UserIntegrationTests" name="testEvilSaveCorrected" time="0.072" />
+
+      <testcase classname="com.grailsinaction.UserIntegrationTests" name="testFollowing" time="0.039" />
+
+      <system-out><![CDATA[--Output from testFirstSaveEver--
+--Output from testSaveAndUpdate--
+--Output from testSaveThenDelete--
+--Output from testEvilSave--
+--Output from testEvilSaveCorrected--
+--Output from testFollowing--
+]]></system-out>
+
+      <system-err><![CDATA[--Output from testFirstSaveEver--
+--Output from testSaveAndUpdate--
+--Output from testSaveThenDelete--
+--Output from testEvilSave--
+--Output from testEvilSaveCorrected--
+--Output from testFollowing--
+]]></system-err>
+
+  </testsuite>
+  <testsuite errors="0" failures="0" hostname="Brians-MacBook-Pro.local" id="2" name="PostTests" package="com.grailsinaction" tests="1" time="0.885" timestamp="2012-02-26T23:01:42">
+      <properties />
+
+      <testcase classname="com.grailsinaction.PostTests" name="testSomething" time="0.796" />
+
+      <system-out><![CDATA[--Output from testSomething--
+]]></system-out>
+
+      <system-err><![CDATA[--Output from testSomething--
+]]></system-err>
+
+  </testsuite>
+  <testsuite errors="0" failures="0" hostname="Brians-MacBook-Pro.local" id="3" name="ProfileTests" package="com.grailsinaction" tests="1" time="0.115" timestamp="2012-02-26T23:01:43">
+      <properties />
+
+      <testcase classname="com.grailsinaction.ProfileTests" name="testSomething" time="0.053" />
+
+      <system-out><![CDATA[--Output from testSomething--
+]]></system-out>
+
+      <system-err><![CDATA[--Output from testSomething--
+]]></system-err>
+
+  </testsuite>
+  <testsuite errors="0" failures="0" hostname="Brians-MacBook-Pro.local" id="4" name="TagTests" package="com.grailsinaction" tests="1" time="0.1" timestamp="2012-02-26T23:01:43">
+      <properties />
+
+      <testcase classname="com.grailsinaction.TagTests" name="testSomething" time="0.063" />
+
+      <system-out><![CDATA[--Output from testSomething--
+]]></system-out>
+
+      <system-err><![CDATA[--Output from testSomething--
+]]></system-err>
+
+  </testsuite>
+  <testsuite errors="0" failures="0" hostname="Brians-MacBook-Pro.local" id="5" name="UserTests" package="com.grailsinaction" tests="1" time="0.1" timestamp="2012-02-26T23:01:43">
+      <properties />
+
+      <testcase classname="com.grailsinaction.UserTests" name="testSomething" time="0.096" />
+
+      <system-out><![CDATA[--Output from testSomething--
+]]></system-out>
+
+      <system-err><![CDATA[--Output from testSomething--
+]]></system-err>
+
+  </testsuite>
+</testsuites>

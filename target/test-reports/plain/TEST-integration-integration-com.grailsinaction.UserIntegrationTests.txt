@@ -1,0 +1,25 @@
+Testsuite: com.grailsinaction.UserIntegrationTests
+Tests run: 6, Failures: 0, Errors: 0, Time elapsed: 0.362 sec
+------------- Standard Output ---------------
+--Output from testFirstSaveEver--
+--Output from testSaveAndUpdate--
+--Output from testSaveThenDelete--
+--Output from testEvilSave--
+--Output from testEvilSaveCorrected--
+--Output from testFollowing--
+------------- ---------------- ---------------
+------------- Standard Error -----------------
+--Output from testFirstSaveEver--
+--Output from testSaveAndUpdate--
+--Output from testSaveThenDelete--
+--Output from testEvilSave--
+--Output from testEvilSaveCorrected--
+--Output from testFollowing--
+------------- ---------------- ---------------
+
+Testcase: testFirstSaveEver took 0.052 sec
+Testcase: testSaveAndUpdate took 0.031 sec
+Testcase: testSaveThenDelete took 0.077 sec
+Testcase: testEvilSave took 0.081 sec
+Testcase: testEvilSaveCorrected took 0.072 sec
+Testcase: testFollowing took 0.039 sec
