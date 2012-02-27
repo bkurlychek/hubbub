@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite errors="0" failures="0" hostname="Brians-MacBook-Pro.local" name="com.grailsinaction.PostIntegrationTests" tests="3" time="0.565" timestamp="2012-02-27T00:52:17">
+  <properties />
+  <testcase classname="com.grailsinaction.PostIntegrationTests" name="testFirstPost" time="0.456" />
+  <testcase classname="com.grailsinaction.PostIntegrationTests" name="testAccessingPosts" time="0.047" />
+  <testcase classname="com.grailsinaction.PostIntegrationTests" name="testPostWithTags" time="0.057" />
+  <system-out><![CDATA[--Output from testFirstPost--
+--Output from testAccessingPosts--
+--Output from testPostWithTags--
+]]></system-out>
+  <system-err><![CDATA[--Output from testFirstPost--
+--Output from testAccessingPosts--
+--Output from testPostWithTags--
+]]></system-err>
+</testsuite>

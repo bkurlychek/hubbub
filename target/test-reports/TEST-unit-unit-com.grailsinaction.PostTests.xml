@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite errors="0" failures="0" hostname="Brians-MacBook-Pro.local" name="com.grailsinaction.PostTests" tests="1" time="0.453" timestamp="2012-02-27T00:52:07">
+  <properties />
+  <testcase classname="com.grailsinaction.PostTests" name="testSomething" time="0.403" />
+  <system-out><![CDATA[--Output from testSomething--
+]]></system-out>
+  <system-err><![CDATA[--Output from testSomething--
+]]></system-err>
+</testsuite>

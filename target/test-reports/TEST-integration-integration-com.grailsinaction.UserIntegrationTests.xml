@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite errors="0" failures="0" hostname="Brians-MacBook-Pro.local" name="com.grailsinaction.UserIntegrationTests" tests="6" time="0.38" timestamp="2012-02-27T00:52:18">
+  <properties />
+  <testcase classname="com.grailsinaction.UserIntegrationTests" name="testFirstSaveEver" time="0.041" />
+  <testcase classname="com.grailsinaction.UserIntegrationTests" name="testSaveAndUpdate" time="0.028" />
+  <testcase classname="com.grailsinaction.UserIntegrationTests" name="testSaveThenDelete" time="0.108" />
+  <testcase classname="com.grailsinaction.UserIntegrationTests" name="testEvilSave" time="0.084" />
+  <testcase classname="com.grailsinaction.UserIntegrationTests" name="testEvilSaveCorrected" time="0.068" />
+  <testcase classname="com.grailsinaction.UserIntegrationTests" name="testFollowing" time="0.044" />
+  <system-out><![CDATA[--Output from testFirstSaveEver--
+--Output from testSaveAndUpdate--
+--Output from testSaveThenDelete--
+--Output from testEvilSave--
+--Output from testEvilSaveCorrected--
+--Output from testFollowing--
+]]></system-out>
+  <system-err><![CDATA[--Output from testFirstSaveEver--
+--Output from testSaveAndUpdate--
+--Output from testSaveThenDelete--
+--Output from testEvilSave--
+--Output from testEvilSaveCorrected--
+--Output from testFollowing--
+]]></system-err>
+</testsuite>
