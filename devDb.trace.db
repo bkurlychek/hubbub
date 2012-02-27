@@ -60,3 +60,9 @@ org.h2.jdbc.JdbcSQLException: Database is already closed (to disable automatic c
 	at groovy.lang.Closure.call(Closure.java:404)
 	at groovy.lang.Closure.run(Closure.java:488)
 	at java.lang.Thread.run(Thread.java:680)
+02-26 23:10:55 jdbc[2]: exception
+org.h2.jdbc.JdbcSQLException: Value too long for column "CONTENT VARCHAR(255) NOT NULL": "'been working out all day. Man i''m tired of doing the grails. just need to get through chapter 5. Holy man how long can this go... (306)"; SQL statement:
+insert into post (id, version, content, date_created, user_id) values (null, ?, ?, ?, ?) [90005-147]
+02-26 23:11:13 jdbc[2]: exception
+org.h2.jdbc.JdbcSQLException: Value too long for column "CONTENT VARCHAR(255) NOT NULL": "'been working out all day. Man i''m tired of doing the grails. just need to get through chapter 5. Holy man how long can this go... (278)"; SQL statement:
+insert into post (id, version, content, date_created, user_id) values (null, ?, ?, ?, ?) [90005-147]

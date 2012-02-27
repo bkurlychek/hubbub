@@ -4,6 +4,12 @@ class PostController {
     
     def scaffold = true
     
+    def index = {
+        if(!params.id)
+        params.id = "chuck_norris"
+        redirect(action: 'timeline', params:params)
+    }
+    
     def timeline = { 
     def user = User.findByUserId(params.id)
     [user:user]
@@ -26,7 +32,7 @@ class PostController {
             
         }
         
-        
+        // left off on 5.2 - Services. 
         
     }
 }
