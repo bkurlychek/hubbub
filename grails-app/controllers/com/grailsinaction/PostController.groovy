@@ -2,6 +2,7 @@ package com.grailsinaction
 
 class PostController {
     
+    def postService
     def scaffold = true
     
     def index = {
@@ -15,24 +16,14 @@ class PostController {
     [user:user]
     }
     
-    def addPost = {
-        
-        def user = User.findByUserId(params.id)
-        if(user){
-            def post = new Post(params)
-            user.addToPosts(post)
-            if(user.save()){
-                flash.message="Successfully created Post"
-            }else{
-                user.discard()
-                flash.message= "Field cannot be blank"
-                
-            }
-            redirect (action:'timeline',id: params.id)
-            
+    def addPost = { 
+        try {
+            def newPost = 
+            postService.createPost(params.id, params.content)
+            flash.message = "Added new post: ${newPost.content}"
+        }catch (PostException pe){ 
+            flash.message = pe.message
         }
         
-        // left off on 5.2 - Services. 
-        
-    }
+        redirect(action: 'timeline', id: params.id) }
 }
